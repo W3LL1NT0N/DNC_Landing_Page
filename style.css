@@ -1,0 +1,116 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Bloco_Header{
+    background-color: #303030;
+    color: white;
+    padding: 05%;
+}
+
+#t1{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#t2{
+    margin-bottom: 0.5%;
+}
+
+#Bloco_Info{
+    background-color: #f9f9f9;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#Bloco_InfoCol{
+    margin: 0%;
+    padding: 5%;
+}
+
+#t3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#t4{
+    font-size: 20px;
+}
+
+#Bloco_Historia{
+    background-color: #f5f5f5;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#Bloco_Historia_t{
+    margin: 30% 0% 30% 0%;
+}
+
+#Bloco_Historia_h{
+    text-align: center;
+    font-size: 30px;
+}
+
+#Bloco_Historia_p{
+    margin: 5% 10% 5% 10%;
+}
+
+#Bloco_Historia_f{
+    width: 100%;
+}
+
+#Bloco_Form{
+    background-color: #303030;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    color: white;
+    text-align: center;
+}
+
+#Bloco_Form_h{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.Inputbox{
+    background-color: white ;
+    margin-bottom: 25px;
+    Width: 300px;
+    Height: 40px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button{
+    background-color: #C07212 ;
+    color: white;
+    Width: 250px;
+    Height: 40px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    cursor:pointer ;
+    border: 0;
+}
+
+button:hover{
+    background-color: #a35e09 ;
+    transform: translateY(-2px);
+    box-shadow: 10px 05px 10px #141414;
+    transition-duration: 0.5s;
+    border: 0;
+}
