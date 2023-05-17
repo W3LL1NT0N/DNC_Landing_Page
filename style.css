@@ -19,7 +19,7 @@
     margin-bottom: 0.5%;
 }
 
-#Bloco_Info{
+.Bloco_Info{
     background-color: #ebe9e9;
     padding-left: 10%;
     padding-right: 10%;
@@ -30,17 +30,17 @@
     columns: auto;
 }
 
-#Bloco_InfoCol{
+.Bloco_InfoCol{
     margin: 0%;
     padding: 5%;
 }
 
-#t3{
+.t3{
     font-weight: bold;
     font-size: 35px;
 }
 
-#t4{
+.t4{
     font-size: 20px;
 }
 
